@@ -6,10 +6,7 @@ import { ITask } from "../interface/ITask";
 
 export function Panel() {
 
-    const taskList: ITask[] = [
-        { id: 1, label: "read 10 pages", checked: false },
-        { id: 2, label: "exercise 30 minutes", checked: false }
-    ];
+    const taskList: ITask[] = [];
 
     const [tasks, setTasks] = useState(taskList)
 
