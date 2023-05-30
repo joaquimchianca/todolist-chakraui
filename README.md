@@ -1,5 +1,5 @@
 # Todo List
-<img src="readme/tela.png" width="250px">
+<img src="readme/tela.png" width="450px" style="text-align: center">
 
 ## Deploy
 
