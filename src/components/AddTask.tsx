@@ -18,9 +18,15 @@ export function AddTask({ tasks, addTask }: AddTaskProps) {
         setValue('')
     }
 
+    const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+        if(e.key == "Enter") {
+            handleClick()
+        }
+    }
+
     return (
         <InputGroup>
-            <Input placeholder="adicione uma nova tarefa" value={value} onChange={e => { setValue(e.target.value) }} />
+            <Input placeholder="add new task" value={value} onChange={e => { setValue(e.target.value) }} onKeyDown={handleKeyDown}/>
             <InputRightElement>
                 <IconButton aria-label="adiciona tarefa" icon={<AddIcon />} colorScheme="red" onClick={handleClick} />
             </InputRightElement>
