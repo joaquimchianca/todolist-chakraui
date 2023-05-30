@@ -1,5 +1,5 @@
 # Todo List
-<img src="readme/tela.png" width="100px">
+<img src="readme/tela.png" width="250px">
 ## Descrição do Projeto
 Projeto desenvolvido pela dupla Joaquim Chianca e Lucas Agnez na disciplina de Framework com Javascript.
 
